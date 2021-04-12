@@ -1,0 +1,156 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F7F9FA;
+    padding-top: 100px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header #logo {
+    max-width: 165px;
+    margin: 0 auto 20px;
+}
+
+.page-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    line-height: 42px;
+    margin: 0;
+}
+
+.card-tracker {
+    max-width: 800px;
+    margin: 35px auto 60px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(238, 238, 238, 0.25);
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    min-height: 300px;
+    padding: 30px;
+}
+
+.card-tracker .row-data {
+    margin: 40px auto 0;
+    max-width: 600px;
+}
+
+.card-tracker .row-data .col-data {
+    text-align: center;
+    color: #333;
+}
+
+.card-tracker .row-data .data-title {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.card-tracker .row-data .data-num {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.card-tracker .row-data .data-num.death {
+    color: #F8437D;
+}
+
+.card-tracker .row-data .data-num.recovered {
+    color: #2CCDE5;
+}
+
+.card-tracker select.form-control {
+    max-width: 600px;
+    height: 40px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #333;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.row-preventive {
+    max-width: 1000px;
+    margin: 0 auto; 
+    justify-content: center;
+}
+
+.row-preventive .card-preventive {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgba(221, 221, 221, 0.25);
+    margin: 15px 0 15px;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+.row-preventive .col-preventive .icon {
+    max-width: 160px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.row-preventive .col-preventive p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #333;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 600px;
+    }
+    .card-tracker .row-data {
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
